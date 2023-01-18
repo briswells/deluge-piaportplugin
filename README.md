@@ -6,7 +6,7 @@ Getting VPN port forwarding set up when using containers can be a pain since the
 
 ## Usage
 
-1. Download a recent version from [releases](https://github.com/jawilson/deluge-piaportplugin/releases).
+1. Download a recent version from [releases](https://github.com/fluver/deluge-piaportplugin/releases).
 2. Add to Deluge by going to Preferences -> Plugins -> Install.
 3. Create a file called `forwarded_port` containing a port number and mount it under `/pia` in the Deluge container (so full path should be `/pia/forwarded_port`).
 
