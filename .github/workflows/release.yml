@@ -17,7 +17,7 @@ jobs:
     - name: Build egg
       run: python3 setup.py bdist_egg
     - name: Create release
-      uses: actions/create-release@v1
+      uses: elgohr/Github-Release-Action@v4
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
